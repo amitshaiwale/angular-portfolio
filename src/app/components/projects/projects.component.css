@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+.container{
+    width: 100%;
+}
+
+.projectsWeather{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffd300;
+}
+
+.projectShoppingApp{
+    font-family: 'Montserrat', sans-serif;
+    background-color:black;
+    color: white;
+}
+
+section h1{
+    /* letter-spacing: 2px; */
+    font-size: 50px;
+    color: black;
+}
+
+.card-body.two {
+    color: white;
+}
+
+.sectionContent{
+    padding: 20px 20px 20px 20px;
+}
+.projectDescriptionHeader{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    font-size: 40px;
+}
+.projectDescriptionHeaderx{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: rgb(110, 109, 109);
+}
+
+.projectDescriptionx{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: rgb(110, 109, 109);
+}
+
+.projectDescription{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    font-size: 30px;;
+
+}
