@@ -2,15 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
 
 nav{
-    height: 20vh;
+    height: 10vh;
     background: black;
 }
 
 .logo {
   font-family: Abel;
-  font-size: 30px;
+  font-size: 22px;
+  font-weight: bold;
   letter-spacing: 3px;
-  padding: 30px 0px 0px 20px;
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.logo :hover{
+  color: red;
+  cursor: pointer;
 }
 
 .flex-container{
