@@ -10,8 +10,8 @@
 
 .bio{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 70px;
     padding: 20px 20px 20px 20px;
     /* margin: 10px 10px 10px 10px; */
 }
@@ -25,8 +25,12 @@
 }
 
 .slightHighliht{
-    color: #1B1D1C;
+    color: rgb(152, 153, 153);
     /* color: #FAAD00; */
+}
+
+.slightHighliht:hover{
+    color: red;
 }
 
 /* .app-project{
@@ -40,8 +44,21 @@ li{
     color: white;
 }
 
+.contactMe{
+    padding: 20px;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.myEmail{
+    font-weight: bold;
+}
+
 .footerText{
     font-family: 'Abel', sans-serif;
     line-height: 30px;
     font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
