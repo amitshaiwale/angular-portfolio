@@ -44,6 +44,10 @@ li{
     color: white;
 }
 
+.quotes{
+    color: red;
+}
+
 .contactMe{
     padding: 20px;
     font-family: 'Abel', sans-serif;
