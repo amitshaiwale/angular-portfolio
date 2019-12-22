@@ -6,7 +6,6 @@
     margin: 10px 10px 10px 10px;
     background-color: black;
     color: white;
-
 }
 
 
@@ -74,6 +73,11 @@ li{
 }
 
 @media screen and (max-width: 800px){
+
+    .mainContent{
+        margin: 5px 5px 5px 5px;
+    }
+
     .bio{
         font-family: 'Ubuntu', sans-serif;
         font-size: 20px;
