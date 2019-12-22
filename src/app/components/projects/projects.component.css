@@ -44,15 +44,36 @@ section h1{
 
 .projectDescriptionx{
     font-family: 'Abel', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 30px;
     color: rgb(110, 109, 109);
 }
 
 .projectDescription{
     font-family: 'Abel', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: black;
     font-size: 30px;;
+
+}
+
+@media screen and (max-width: 800px){
+    section h1{
+        font-size: 35px;
+    }
+    .projectDescriptionHeader{
+        font-size: 22px;
+    }
+    .projectDescription {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .projectDescriptionHeaderx{
+        font-size: 22px;
+    }
+    .projectDescriptionx{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
 
 }
