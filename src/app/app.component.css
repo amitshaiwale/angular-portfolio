@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 .mainContent{
     margin: 10px 10px 10px 10px;
@@ -73,7 +74,7 @@ li{
 
 @media screen and (max-width: 800px){
     .bio{
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         font-size: 20px;
         line-height: 30px;
         padding: 20px 20px 20px 20px;
