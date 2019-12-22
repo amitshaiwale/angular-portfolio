@@ -5,6 +5,14 @@
     width: 100%;
 }
 
+img{
+    border-radius: 15px;
+}
+
+.card{
+    border-radius: 15px;
+}
+
 .projectsWeather{
     font-family: 'Montserrat', sans-serif;
     background-color: #ffd300;
