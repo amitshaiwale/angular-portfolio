@@ -27,7 +27,7 @@ section h1{
 }
 
 .sectionContent{
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
 }
 .projectDescriptionHeader{
     font-family: 'Abel', sans-serif;
@@ -59,21 +59,30 @@ section h1{
 
 @media screen and (max-width: 800px){
     section h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .projectDescriptionHeader{
         font-size: 22px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 0px;
     }
     .projectDescription {
         font-size: 20px;
-        letter-spacing: 1px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 0px;
     }
     .projectDescriptionHeaderx{
         font-size: 22px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 0px;
     }
     .projectDescriptionx{
         font-size: 20px;
-        letter-spacing: 1px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 0px;
+    }
+    .sectionContent{
+        padding: 0px 0px 0px 0px;
     }
 
 }
