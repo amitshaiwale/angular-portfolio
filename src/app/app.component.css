@@ -81,4 +81,12 @@ li{
         padding: 20px 20px 20px 20px;
     }
 
+    .footerText{
+        font-size: 10px;
+    }
+
+    .contactMe{
+        font-size: 15px;
+    }
+
 }
