@@ -13,6 +13,10 @@ import { MatListModule } from '@angular/material/list';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
+const appRoutes: Routes = [
+  { path: 'projects', component: ProjectsComponent }
+]
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +31,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    RouterModule.forRoot(
+      appRoutes
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
