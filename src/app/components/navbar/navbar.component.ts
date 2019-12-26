@@ -25,5 +25,6 @@ export class NavbarComponent implements OnInit {
     const hamburger = document.querySelector(".hamburger");
     const navLinks = document.querySelector(".nav-links");
     navLinks.classList.toggle("open");
+    links.classList.toggle("open");
   }
 }
