@@ -15,8 +15,8 @@ img{
 
 .projectsWeather{
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffd300;
-    /* background-image: linear-gradient(to top right, #ffd300, #fff5c5); */
+    /* background-color: #ffd300; */
+    background-image: linear-gradient(to top right, #ffd300, #ffe258);
 }
 
 .projectShoppingApp{
