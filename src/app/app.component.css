@@ -75,13 +75,20 @@
 }
 
 .downloadBtn:hover{
-    opacity: 0.2;
-    transition: ease-in 0.3s;
+    /* opacity: 0.2; */
+    transition: ease-in-out 0.3s;
+    color: #0BBCD6;
+    border: 1px solid #0BBCD6;
 }
 
-.downloadBtn >a {
+.downloadBtn > a {
     text-decoration: none;
     color: white;
+}
+
+.downloadBtn > a:hover {
+    transition: ease-in-out 0.3s;
+    color: #0BBCD6;
 }
 
 
