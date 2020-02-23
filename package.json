@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://amitshaiwale.github.io/angular-portfolio/ && angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng build --prod --base-href https://amitshaiwale.github.io/angular-portfolio/ && cp ./static/CNAME public/ &&gh-pages -d public --branch master"
   },
   "private": true,
   "dependencies": {
