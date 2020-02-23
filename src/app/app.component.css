@@ -1,7 +1,261 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
 
+.mainContent{
+    display: flex;
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.mainContent .box{
+    /* flex: 1; */
+    width: 100vw;
+    height: 100vh;
+    padding: 2.5rem;
+    align-items: center;
+}
+
+.imgBox{
+    background-image: url("../assets/me.jpg");
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    width: 50%;
+    height: 720px;
+    opacity: 0.6;
+    font-family: Raleway;
+    /* writing-mode: vertical-lr; */
+}
+
+.hr{
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid white;
+}
+
+.imgBox > h6{
+    left: 0px;
+    opacity: 0.3;
+    position: absolute;
+    top: 100px;
+    transform: rotate(270deg);
+}
+
+.bioBox{
+    font-family: Raleway;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 720px){
+    /* .mainContent{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        vertical-align: top;
+        flex-wrap: wrap;
+    }
+
+    .imgBox{
+        background-image: url("../assets/me360x640.jpg");
+        width: auto;
+    } */
+    .mainContent{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .imgBox{
+        float: left;
+        width: 100%;
+        height: 80vh;
+    }
+    .bioBox{
+        /* float: left; */
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+/* .navName{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+    z-index: 1;
+} */
+/* 
+.flexibleBody{
+    display: flex;
+    background: #eeeeee;
+    overflow: auto;
+    height: 100vh;
+}
+
+.flexibleBody .box{
+    flex: 1;
+    padding: 1rem; 
+}*/
+
+/* .imgBox{
+background-image: url("../assets/me.jpg");
+background-position: center center;
+background-size: cover;
+}
+
+.bioBox{
+    background-color: black;
+    background-image: linear-gradient(65deg, #000000, rgb(29, 29, 29));
+} */
+
+/* @media screen and (max-width: 48rem){
+    .flexibleBody{
+        display: flex;
+        flex-flow: column;
+    }
+} */
+
+/* 
+.body{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+} */
+
+/* .leftSideImage{
+    background-image: url("../assets/me.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.rightSideText{
+    background-color: black;
+    background-image: linear-gradient(65deg, #000000, rgb(29, 29, 29));
+} */
+
+/* .bio{
+    margin: 15% 15% 15% 15%;
+    margin-left: 10%;
+    width: 80%;
+    height: 600px;
+    background-color: black;
+} */
+
+/* .bio > p {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.body > div {
+    width: 50%;
+}
+
+.profession {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+} */
+
+/* .downloadBtn{
+    margin-left: 170px;
+    background: none;
+    width: 150px;
+    height: 50px;
+    display: block;
+    vertical-align: middle;
+    border: 1px solid white;
+    border-radius: 5px;
+} */
+
+/* .downloadBtn:hover{
+    opacity: 0.2;
+    transition: ease-in-out 0.3s;
+    color: #0BBCD6;
+    border: 1px solid #0BBCD6;
+}
+
+.downloadBtn > a {
+    text-decoration: none;
+    color: white;
+}
+
+.downloadBtn > a:hover {
+    transition: ease-in-out 0.3s;
+    color: #0BBCD6;
+} */
+
+/* @media screen and (max-width: 800px){
+    .body{
+        display: block;;
+    }
+    .body > div{
+        width: 100%;
+    }
+    .bio{
+        margin: 5%;
+        height: 900px;
+    }
+    .leftSideImage{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../assets/me.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    .rightSideText{
+        width: 100%;
+        height: 80h;
+        padding: 20px;
+        background-color: black;
+        background-image: linear-gradient(65deg, #000000, rgb(29, 29, 29));
+    }
+} */
+/* 
+@media screen and (min-width: 800px){
+    .body{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+
+    .bio{
+        width: 300px;
+        height: 300px;
+    }
+
+    .bio > p{
+        font-size: 10px;
+    }
+
+    .body > div{
+        width: 50%;
+    }
+    .leftSideImage{
+        background-color: white;
+        background-image: url("../assets/me.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    .rightSideText{
+        background-color: black;
+        background-image: linear-gradient(65deg, #000000, rgb(29, 29, 29));
+    }
+} */
+
+
+/* 
 .mainContent{
     margin: 10px 10px 10px 10px;
     background-color: black;
@@ -12,7 +266,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #EF3E4A;
     font-size: 150px;
-    /* letter-spacing: 2px; */
+    letter-spacing: 2px;
     text-align: center;
     width: 100%;
     word-wrap: break-word;
@@ -24,7 +278,7 @@
     font-size: 40px;
     line-height: 60px;
     padding: 20px 20px 20px 20px;
-    /* margin: 10px 10px 10px 10px; */
+    margin: 10px 10px 10px 10px;
 }
 
 .strike{
@@ -37,16 +291,12 @@
 
 .slightHighliht{
     color: rgb(152, 153, 153);
-    /* color: #FAAD00; */
+    color: #FAAD00;
 }
 
 .slightHighliht:hover{
     color: #EF3E4A;
 }
-
-/* .app-project{
-    width: 100%;
-} */
 
 li{
     display: inline-block;
@@ -94,8 +344,9 @@ li{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-}
+} */
 
+/* 
 @media screen and (max-width: 800px){
 
     .mainContent{
@@ -136,4 +387,4 @@ li{
         line-height: 5px;
     }
 
-}
+} */
