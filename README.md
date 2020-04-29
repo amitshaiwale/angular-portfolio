@@ -1,6 +1,4 @@
 # angular-portfolio
-![alt text][amit homepage]
-[amit homepage]: https://github.com/amitshaiwale/angular-portfolio/blob/master/src/assets/readmeheader.jpg "Amit Shaiwale"
 
 Hosted & Deployed on : Firebase <br>
 Custom domain by : Porkbun [ .design ]
